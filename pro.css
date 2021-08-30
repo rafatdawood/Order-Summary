@@ -11,7 +11,7 @@ body {
 	background-color: hsl(225, 100%, 94%);
 }
 .mine {
-	background-image: url('../../jops/order-summary-component-main/images/pattern-background-desktop.svg');
+	background-image: url('pattern-background-desktop.svg');
 	background-size: 100% 50%;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -60,7 +60,7 @@ p {
 	border-radius: 10px;
 }
 .deal::before {
-	content: url("../../jops/order-summary-component-main/images/icon-music.svg");
+	content: url("icon-music.svg");
 	position: absolute;
 	left: 10%;
 	top: 20%;
@@ -122,7 +122,7 @@ a:hover {
 /* desktop screen */
 @media(max-width: 1440px){
 	.mine {
-		background-image: url('../../jops/order-summary-component-main/images/pattern-background-desktop.svg');
+		background-image: url('pattern-background-desktop.svg');
 	}
 	.card {
 		width: 400px;
@@ -131,7 +131,7 @@ a:hover {
 /* mobile screen */
 @media(max-width: 375px){
 	.mine {
-		background-image: url('../../jops/order-summary-component-main/images/pattern-background-mobile.svg');
+		background-image: url('pattern-background-mobile.svg');
 	}
 	.card {
 		width: calc(100% - 20px);
