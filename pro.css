@@ -20,8 +20,8 @@ body {
 	align-items: center;
 }
 .card {
-	width: 400px;
-	height: 600px;
+	width: 450px;
+	height: 700px;
 	background-color: white;
 	border-radius: 20px;
 	overflow: hidden;
@@ -125,7 +125,7 @@ a:hover {
 		background-image: url('pattern-background-desktop.svg');
 	}
 	.card {
-		width: 400px;
+		width: 450px;
 	}
 }
 /* mobile screen */
